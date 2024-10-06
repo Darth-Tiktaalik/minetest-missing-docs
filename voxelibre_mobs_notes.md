@@ -1,6 +1,12 @@
 Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible 
 
-[mobspawning]#mob-spawning)
+
+[probably essential values when converting from mobs redo](#new-values-to-add-when converting-from-mobs-redo)
+[mob spawning](#mob-spawning)
+   [spawning in biomes](#spawning-in-biomes)
+   [spawning on structures](#spawning-on-structures)
+
+<h5>new values to add when converting from mobs redo</h5>
 
 can_despawn is a value that can be true or false but one of these must be set to avoid nil value crash, also needs spawn_class string.
 
