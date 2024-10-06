@@ -4,7 +4,7 @@ Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible
 
 
 
-[probably essential values when converting from mobs redo](#new-values-to-add-when converting-from-mobs-redo) 
+[probably essential values when converting from mobs redo](#new-values-to-add-when-converting-from-mobs-redo) 
 
 
 [mob spawning](#mob_spawning)
