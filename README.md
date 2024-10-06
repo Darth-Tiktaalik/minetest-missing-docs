@@ -4,7 +4,7 @@ very wip by a programming beginner
 
 docs:
 
-[voxelibre mob notes](https://github.com/Darth-Tiktaalik/minetest-missing-docs/blob/main/voxelibre_mobs_notes.md), listing out mcl_mobs (and mcl_structures) details I needed know when converting zombies4test mobs from mobs redo to voxelibre's mcl_mobs
+[voxelibre mob notes](https://github.com/Darth-Tiktaalik/minetest-missing-docs/blob/main/voxelibre_mobs_notes.md), listing out mcl_mobs (and mcl_structures) details I needed to know when converting zombies4test mobs from mobs redo to voxelibre's mcl_mobs
 
 
 Official documentation Hall of fame 
