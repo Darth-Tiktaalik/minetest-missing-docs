@@ -1,4 +1,6 @@
-Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible except some new values that cannot be omitted
+Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible 
+
+[mobspawning]#mob-spawning)
 
 can_despawn is a value that can be true or false but one of these must be set to avoid nil value crash, also needs spawn_class string.
 
@@ -20,20 +22,18 @@ appears to want registration in form of mcl_mobs.register_mob("zombies4test:surv
 mainly governed by two functions(?)
 
 
-**For spawning in biomes** mcl_mobs:spawn_specific() and are supplied in the form of mcl_mobs:spawn_specific(name, dimension, type_of_spawning, biomes, min_light, max_light, interval, chance, aoc, min_height, max_height, day_toggle, on_spawn, check_position)
+<h6>spawning in biomes</h6> mcl_mobs:spawn_specific() and are supplied in the form of mcl_mobs:spawn_specific(name, dimension, type_of_spawning, biomes, min_light, max_light, interval, chance, aoc, min_height, max_height, day_toggle, on_spawn, check_position)
 
 dimension here is meant in the sense of overworld, nether and end dimensions while type of spawn means whether it spawns on ground, water or lava.
 
 biomes are all listed in mcl_mobs' spawning.lua file
 
 
-**For spawning on structures** it appears to want  mcl_structures.register_structure_spawn()
+<h6>spawning on structures</h6> it appears to want  mcl_structures.register_structure_spawn()
 
 It accepts at least the following values in a table:
 
-name = string(determines what mob spawns, should be supplied as modname:mobname, e.g name = "zombies4test:doctorzombie",)
-	name = "mobs_mc:pillager",
-	y_min =number & y_max = number  (coordinates)
+name = string(determines what mob spawns, should be supplied as modname:mobname, e.g name = "zombies4test:doctorzombie",)y_min = number & y_max = number  (coordinates)
 	chance = number(spawn chance)
 	interval = number 
 	limit =number(maximum amount that can spawn)
