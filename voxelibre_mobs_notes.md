@@ -1,9 +1,17 @@
 Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible 
 
 
-[probably essential values when converting from mobs redo](#new-values-to-add-when converting-from-mobs-redo)
-[mob spawning](#mob-spawning)
-   [spawning in biomes](#spawning-in-biomes)
+
+
+
+[probably essential values when converting from mobs redo](#new-values-to-add-when converting-from-mobs-redo) 
+
+
+[mob spawning](#mob_spawning)
+
+[spawning in biomes](#spawning-in-biomes)
+   
+   
    [spawning on structures](#spawning-on-structures)
 
 <h5>new values to add when converting from mobs redo</h5>
