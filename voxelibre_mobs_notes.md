@@ -42,6 +42,7 @@ mainly governed by two functions(?)
 
 
 
+
 dimension here is meant in the sense of overworld, nether and end dimensions while type of spawn means whether it spawns on ground, water or lava.
 
 biomes are all listed in voxelibre's [mods/MAPGEN/mcl_biomes/init.lua](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/MAPGEN/mcl_biomes/init.lua)
