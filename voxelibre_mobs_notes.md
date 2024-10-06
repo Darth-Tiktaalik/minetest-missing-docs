@@ -36,7 +36,7 @@ mcl_mobs.register_arrow() didn't have any obvious breaking changes from mobs red
 
 
 <h5>Mob spawning</h5>
-TODO: research if mcl_mobs or other voxelibre mod supports suppressing specific built in mobs, in my use case ensuring that zombies from mod fully replace mobs_mc zombies. There exists a non_spawn_specific function for mobs not meant to spawn in overworld that may be of use here.
+TODO: research if mcl_mobs or other voxelibre mod supports suppressing specific built in mobs, in my use case ensuring that zombies from mod fully replace mobs_mc zombies. There exists a non_spawn_specific function for mobs not meant to spawn in overworld that may be of use here.  
 
 mainly governed by two functions(?)  
 
@@ -46,9 +46,9 @@ mainly governed by two functions(?)
 
 
 
-dimension here is meant in the sense of overworld, nether and end dimensions while type of spawn means whether it spawns on ground, water or lava.
+dimension here is meant in the sense of overworld, nether and end dimensions while type of spawn means whether it spawns on ground, water or lava.  
 
-biomes are all listed in voxelibre's [mods/MAPGEN/mcl_biomes/init.lua](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/MAPGEN/mcl_biomes/init.lua)
+biomes are all listed in voxelibre's [mods/MAPGEN/mcl_biomes/init.lua](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/MAPGEN/mcl_biomes/init.lua)  
 
 spawn_specific doesn't appear to support specifying an exact node type to spawn on.
 
