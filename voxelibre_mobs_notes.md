@@ -40,7 +40,7 @@ mainly governed by two functions(?)
 
 dimension here is meant in the sense of overworld, nether and end dimensions while type of spawn means whether it spawns on ground, water or lava.
 
-biomes are all listed in mcl_mobs' spawning.lua file
+biomes are all listed in voxelibre's [mods/MAPGEN/mcl_biomes/init.lua](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/MAPGEN/mcl_biomes/init.lua)
 
 
 <h6>spawning on structures</h6> it appears to want  mcl_structures.register_structure_spawn()
