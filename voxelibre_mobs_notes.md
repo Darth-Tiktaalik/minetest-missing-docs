@@ -18,6 +18,8 @@ Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible
 
 <h5>new values to add when converting from mobs redo</h5>
 
+appears to want registration in form of mcl_mobs.register_mob(), mostly uses values from mobs redo except that:
+
 can_despawn is a value that can be true or false but one of these must be set to avoid nil value crash, also needs spawn_class string.
 
 values for xp_min and xp_max that can (must?) be set, determines how many experience points drop when a mob is killed
@@ -30,8 +32,8 @@ Handy template to add to your preexisting mobs_redo mobs when converting them to
         spawn_class = "",
 
 
+mcl_mobs.register_arrow() didn't have any obvious breaking changes from mobs redo when experimenting with zombies4test's spitter zombie.
 
-appears to want registration in form of mcl_mobs.register_mob("zombies4test:survivorzombie", survivorzombie)
 
 <h5>Mob spawning</h5>
 
