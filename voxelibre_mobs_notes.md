@@ -1,3 +1,5 @@
+These notes are for those wishing to port mobs redo mobs to voxelibre 
+
 Voxelibre Mcl_mobs is a fork of mobs redo and appears mostly compatible 
 
 
