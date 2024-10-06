@@ -36,6 +36,7 @@ mcl_mobs.register_arrow() didn't have any obvious breaking changes from mobs red
 
 
 <h5>Mob spawning</h5>
+TODO: research if mcl_mobs or other voxelibre mod supports suppressing specific built in mobs, in my use case ensuring that zombies from mod fully replace mobs_mc zombies. There exists a non_spawn_specific function for mobs not meant to spawn in overworld that may be of use here.
 
 mainly governed by two functions(?)
 
