@@ -53,7 +53,7 @@ biomes are all listed in voxelibre's [mods/MAPGEN/mcl_biomes/init.lua](https://g
 spawn_specific doesn't appear to support specifying an exact node type to spawn on.
 
 
-<h6>spawning on structures</h6> it appears to want  mcl_structures.register_structure_spawn()
+<h6>spawning on structures</h6> is done via mcl_structures.register_structure_spawn()
 
 It accepts at least the following values in a table:
 
@@ -68,6 +68,11 @@ y_min = number & y_max = number  (coordinates)
  limit = number(maximum amount that can spawn)
 	
  spawnon = string (what nodes of the structure mob spawns on, should be supplied as modname:nodename)
+
+
+ For information on registering structures, refer to voxelibre's [MAPGEN/mcl_structures/API.md](https://git.minetest.land/VoxeLibre/VoxeLibre/src/branch/master/mods/MAPGEN/mcl_structures/API.md)
+
+ 
 
 
 
